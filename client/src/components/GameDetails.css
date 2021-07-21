@@ -1,0 +1,72 @@
+.conteiner {
+  display: inline-flex;
+}
+
+.details {
+  background-color: rgba(0, 0, 0, 0.542);
+  height: 65vh;
+  width: 46.4vw;
+  margin-left: 20px;
+  margin-top: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 1px rgba(255, 248, 220, 0.193);
+  border-left: 1px solid rgba(192, 83, 33, 0.248);
+  flex-direction: column;
+}
+
+.details h1 {
+  text-shadow: 1px 1px 1px rgba(255, 248, 220, 0.357);
+  margin: 26px;
+  margin-left: 240px;
+  color: rgb(220, 218, 172);
+}
+.details b {
+  margin-left: 50px;
+  color: rgba(220, 218, 172, 0.693);
+  border-radius: 2px;
+  border-bottom: 1px solid rgba(245, 245, 245, 0.138);
+}
+
+.details h5 {
+  color: rgba(222, 184, 135, 0.837);
+  margin-left: 50px;
+  margin-bottom: 30px;
+  margin-top: 5px;
+  width: 60vh;
+  height: 4vh;
+}
+.description {
+  background-color: rgba(0, 0, 0, 0.542);
+  box-shadow: 0px 0px 1px rgba(255, 248, 220, 0.357);
+  color: rgba(222, 184, 135, 0.837);
+  border-left: 1px solid rgba(192, 83, 33, 0.248);
+  width: 80%;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 14px;
+  margin-left: 76px;
+  margin-top: 20px;
+}
+
+.description b {
+  margin-left: 5px;
+  color: rgba(220, 218, 172, 0.693);
+  border-radius: 2px;
+  border-bottom: 1px solid rgba(245, 245, 245, 0.138);
+}
+
+.nav {
+  display: flexbox;
+  justify-content: space-evenly;
+  margin: 0px;
+}
+
+.img {
+  border: 1px solid rgba(192, 83, 33, 0.604);
+  box-shadow: 1px 1px 1px rgba(245, 245, 245, 0.583);
+  width: 65vh;
+  border-radius: 20px;
+  height: 65vh;
+  margin-left: 80px;
+  margin-top: 40px;
+}

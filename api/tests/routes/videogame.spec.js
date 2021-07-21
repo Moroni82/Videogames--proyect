@@ -7,7 +7,11 @@ const { Videogame, conn } = require('../../src/db.js');
 const agent = session(app);
 const videogame = {
   name: 'Super Mario Bros',
+  description: 'test',
+  platforms: 'test',
+  id: 'test'
 };
+
 
 describe('Videogame routes', () => {
   before(() => conn.authenticate()
@@ -19,6 +23,16 @@ describe('Videogame routes', () => {
   describe('GET /videogames', () => {
     it('should get 200', () =>
       agent.get('/videogames').expect(200)
-    );
+    ).timeout(5000);
   });
 });
+
+  describe('Test genre rutes', () => {
+    describe('GET /genre', () => {
+      it('responds with 200', () => agent.get('/genre').expect(200)).timeout(5000);
+      it('respond with a matrix of 19 positions, each one must be an object', ()=>
+      agent.get('/genre').then((res)=> {
+        expect(res.body.length).to.be.equal(19)
+      })).timeout(5000);
+    });
+  });
