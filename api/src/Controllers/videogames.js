@@ -102,7 +102,6 @@ function getVideogameById(req, res, next){
       })
       .catch(err => next(err));
   }
-
 }
 
 function addVideogame(req, res, next){
@@ -124,6 +123,7 @@ function addVideogame(req, res, next){
     })
     .catch(err => next(err));
 };
+
 
 module.exports = {
   getVideogames,

@@ -78,7 +78,8 @@
   height: 50%;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction:row;
+  align-content: flex-start;
 }
 
 .Sgenre {
@@ -87,13 +88,14 @@
   height: 50%;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction:row;
+  align-content: flex-start;
 }
 
 .Sselecteds {
   align-items: center;
   justify-content: space-evenly;
-  margin-top: 5px;
+  margin:1px;
   border-radius: 10px;
   border: 1px solid hsla(11, 54%, 54%, 0.316);
   font-size: 14px;
@@ -102,23 +104,25 @@
   background-color: #16191d8e;
   color: aliceblue;
   display: flex;
+  padding: 5px 10px;
 }
 
 .spam {
-  background-color: hsla(0, 0%, 100%, 0.686);
-  color: black;
-  border: 1px solid black;
-  border-radius: 5px;
-  height: 17px;
-  width: 11px;
-  display: flex;
-  justify-content: space-around;
-  margin-top: 5px;
-  font-size: 12px;
+  cursor: pointer;
+  background-color:hsla(11, 54%, 54%, 0.405);
+  color: beige;
+  display: inline-block;
+  width: 10px;
+  height: 12px;
+  font-size: 10px;
+  text-align: center;
+  padding: 0px 10px 16px 6px;
+  border-radius: 10px;
+  margin-left: 4px;
 }
 
 .spam:hover {
-  color: hsla(11, 86%, 36%, 0.63);
+  color: hsla(11, 83%, 57%, 0.392);
   cursor: pointer;
 }
 

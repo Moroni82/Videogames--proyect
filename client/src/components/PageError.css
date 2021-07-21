@@ -1,0 +1,16 @@
+.error {
+  text-decoration: none;
+  outline: none;
+  color: beige;
+
+  font-size: 20px;
+}
+
+.error:hover {
+  color: rgba(240, 115, 57, 0.59);
+}
+
+.pageerror {
+  margin: 5px;
+  padding: 10px;
+}

@@ -2,7 +2,6 @@ const axios = require('axios')
 
 
 export function getVideogames(game) {
-  console.log(game)
   return function(dispatch){
     let url = `http://localhost:3001/videogames/`
     if(game){

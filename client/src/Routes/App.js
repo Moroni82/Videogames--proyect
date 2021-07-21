@@ -5,6 +5,7 @@ import LandingPage from "../components/LandingPage";
 import Home from "../components/Home";
 import Create from "../components/Create";
 import { GameDetails } from "../components/GameDetails";
+import PageError from "../components/PageError"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
      <Route exact path="/detail/:id" render={({ match }) => {
        return <GameDetails id={match.params.id}/>
      }}/>
+     <Route path="*" component={PageError}/>
    </Switch>
   );
 }
