@@ -75,6 +75,7 @@
 }
 
 .borderImage {
+  /* margin-left:20px; */
   border-top: 1px solid hsla(11, 54%, 54%, 0.878);
   border-bottom: 1px solid hsla(11, 54%, 54%, 0.878);
   border-width: 1px;

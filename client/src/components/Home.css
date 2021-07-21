@@ -2,7 +2,6 @@
   flex-flow: row wrap;
   display: inline-flex;
   justify-content: center;
-  margin-left: 0;
 }
 
 *,
@@ -105,7 +104,7 @@ figure figcaption button {
   border-right: 1px solid rgba(192, 83, 33, 0.385);
   box-shadow: 0 0 1px rgba(210, 213, 216, 0.186);
   padding: 10px;
-  width: 80%;
+  width: 83%;
   border-radius: 10px;
 }
 
@@ -118,7 +117,7 @@ figure figcaption button {
 .bord {
   margin-top: 2px;
   display: flex;
-  width: 100vw;
+  width: 99vw;
   justify-content: center;
 }
 

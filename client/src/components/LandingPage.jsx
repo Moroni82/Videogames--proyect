@@ -4,7 +4,7 @@ import "./LandingPage.css";
 
 const LandingPage = () => {
   return (
-    <div>
+    <div className="landingConteiner">
       <LandingSlider />
       <div class="buttons">
         <div class="container">
