@@ -12,9 +12,6 @@ export const GameDetails = ({ id }) => {
 
   const [loader, setLoader] = useState(true);
 
-  // const home = () => {
-  //   history.push(`/home`)
-  // }
 
   useEffect(() => {
     if (state.id) {

@@ -14,7 +14,7 @@ const initialForm = {
   genres: [],
   platforms: [],
   backgroundImage: "",
-  imageUrl:"",
+  imageUrl:" ",
 };
 
 const validate = (form) => {
@@ -90,7 +90,6 @@ const Create = () => {
       return;
     }
   }
-
 
   const setImage = (e) => {
     setForm({
